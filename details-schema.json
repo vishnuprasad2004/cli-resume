@@ -1,0 +1,145 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type":"object",
+    "description": "Resume Details",
+    "properties": {
+        "name": {
+            "type":"string",
+            "description": "Name of the person"
+        },
+        "about":{
+            "type":"string"
+        },
+        "skills": {
+            "type":"object",
+            "properties": {
+                "technicalSkills":{
+                    "type":"array",
+                    "description": "Add all the programming languages and domains in computer science",
+                    "items": {
+                        "type":"string"
+                    }
+                },
+                "nonTechnicalSkills":{
+                    "type":"array",
+                    "description": "Add all the non-programming skills like designing and editing here",
+                    "items": {
+                        "type":"string"
+                    }
+                },
+                "softSkills":{
+                    "type":"array",
+                    "description": "All all the soft skills like communication here",
+                    "items": {
+                        "type":"string"
+                    }
+                }
+            },
+            "description": "skills(technical, non technical, soft) of the person"
+        },
+        "educations":{
+            "type":"object",
+            "description": "Education of the person",
+            "properties": {
+                "graduation":{
+                    "type":"object",
+                    "description": "format => from *College name* semester, *semester no*",
+                    "properties": {
+                        "marks/grade" : {
+                            "type":"string"
+                        },
+                        "details": {
+                            "type":"string"
+                        }
+                    }
+                },
+                "intermediate": {
+                    "type":"object",
+                    "description": "format => from *school name* with",
+                    "properties": {
+                        "marks/grade" : {
+                            "type":"string"
+                        },
+                        "details": {
+                            "type":"string"
+                        }
+                    }
+                },
+                "matriculation" : {
+                    "type":"object",
+                    "description": "format => from *school name* with",
+                    "properties": {
+                        "marks/grade" : {
+                            "type":"string"
+                        },
+                        "details": {
+                            "type":"string"
+                        }
+                    }
+                }
+            }
+        },
+        "experiences":{
+            "type":"array",
+            "description": "Experience of the person",
+            "items": {
+                "type":"object",
+                "properties": {
+                    "companyName/InstituteName": {
+                        "type":"string"
+                    },
+                    "details":{
+                        "type":"string"
+                    },
+                    "timePeriod": {
+                        "type":"string"
+                    }
+                }
+            }
+            
+        },
+        "projects":{
+            "type":"array",
+            "description": "Projects",
+            "items": {
+                "type":"object",
+                "properties": {
+                    "name":{
+                        "type":"string"
+                    },
+                    "details":{
+                        "type":"string"
+                    },
+                    "technologiesUsed": {
+                        "type":"array",
+                        "items": {
+                            "type":"string"
+                        }
+                    },
+                    "link":{
+                        "type":"string",
+                        "format": "uri"
+                    }
+                }
+            }
+        },
+        "contacts":{
+            "type":"object",
+            "properties": {
+                "github":{
+                    "type":"string",
+                    "format": "uri"
+                },
+                "linkedin":{
+                    "type":"string",
+                    "format": "uri"
+                },
+                "email": {
+                    "type":"string",
+                    "format": "email"
+                }
+            },
+            "description": "Contacts"
+        }
+    }
+}

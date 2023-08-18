@@ -1,0 +1,67 @@
+{
+    "$schema": "./details-schema.json",
+    "name":"Vishnu Prasad Korada",
+    "about": "Hello I am Vishnu Prasad Korada, pursuing Computer Science Engineering in GIETU\nI am a CSE sophmore specializing in AI/ML. I know Python, Java , HTML , CSS , JavaScript. I also know Graphic Designing and have used this skill in University Practically .\n Apart from that sketching, playing my piano and researching about space exploration are some of my favourite hobbies... ",
+    "skills": {
+        "technicalSkills": ["JavaScript", "C", "Java", "NodeJs", "ExpressJs", "Python", "HTML", "CSS"],
+        "nonTechnicalSkills": ["Graphic Designing"],
+        "softSkills": ["Communication", "Management"]
+    },
+    "educations": {
+        "graduation":{
+            "marks/grade":"9.14 CGPA",
+            "details": "from Gandhi Institute of Engineering and Technology University, Gunupur with sem 1: "
+        },
+        "intermediate": {
+            "marks/grade": "89%",
+            "details": "from Gandhi Public School, Gunupur with "
+        },
+        "matriculation": {
+            "marks/grade": "93%",
+            "details": "from Laxman Public School, New Delhi with "
+        }
+    },
+    "projects": [
+        {
+            "name": "Newsletter App",
+            "details": "",
+            "technologiesUsed": ["EJS", "NodeJs", "ExpressJs", "MongoDB"]
+        },
+        {
+            "name": "Student Manager API",
+            "details": "",
+            "technologiesUsed": ["NodeJs", "ExpressJs", "MongoDB"]
+        },
+        {
+            "name": "Space Invader Game",
+            "details": "The Classic Space Invader Game, You can play now ... made with game classes and canvasAPI animation rendering",
+            "technologiesUsed": ["HTML", "CSS", "JavaScript - canvasAPI Animations"],
+            "link": "https://vishnuprasad2004.github.io/space-invader-game/"
+        },
+        {
+            "name": "Audio Player Website",
+            "details": "An Audio Player to play your local Music files.🎺🎵🎶",
+            "technologiesUsed": ["HTML", "CSS", "JavaScript"],
+            "link": "https://vishnuprasad2004.github.io/Audio-Player/"
+        },
+        {
+            "name": "To Do List Website",
+            "details": "a simple to do app with mobile responsiveness",
+            "technologiesUsed": ["HTML", "CSS", "JavaScript"],
+            "link": "https://vishnuprasad2004.github.io/to-Do-List/"
+        },
+        {
+            "name": "Mental Maths Website",
+            "details": "Mental Maths Quiz which prompts arithematic expressions with scores and timing",
+            "technologiesUsed": ["HTML", "CSS", "JavaScript"],
+            "link": "https://vishnuprasad2004.github.io/Mental-Maths-Quiz/"
+        }
+    ],
+    "contacts": {
+        "github": "http://github.com/vishnuprasad2004",
+        "linkedin": "https://www.linkedin.com/in/vishnu-prasad-korada-32b550253",
+        "instagram": "",
+        "behance": "",
+        "email": "vishnuprasadkorada@gmail.com"
+    }
+}
