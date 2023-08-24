@@ -1,13 +1,15 @@
 # cli-resume
 ## Resume on your Terminal!!!
-
+🤖 Who needs paper when you can flaunt your skills with a simple command?
 
 ### To view the resume 
 After cloning the repository we can run the resume program using the below command 
+
 ```shell
 npm install
-node resume.js
+npm run show
 ```
+
 ### Preview
 ![image](https://github.com/vishnuprasad2004/cli-resume/assets/116942066/a43439c8-ed9f-41e4-bc30-68b3dddbc2b0)
 
@@ -19,4 +21,4 @@ The ```details-schema.json``` file consists of the schema or structure of the da
 
 Happy Coding!
 
-
+Made by: VIshnu Prasad Korada
